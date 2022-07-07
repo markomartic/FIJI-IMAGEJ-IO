@@ -1,0 +1,175 @@
+-J-Xmx1024m
+@options
+@packages
+@argfile
+-classpath
+'/home/runner/.m2/repository/net/imagej/ij/1.53f/ij-1.53f.jar:/home/runner/.m2/repository/net/imagej/imagej-common/0.34.1/imagej-common-0.34.1.jar:/home/runner/.m2/repository/net/imglib2/imglib2/5.12.0/imglib2-5.12.0.jar:/home/runner/.m2/repository/net/imglib2/imglib2-roi/0.11.0/imglib2-roi-0.11.0.jar:/home/runner/.m2/repository/net/imglib2/imglib2-realtransform/3.1.0/imglib2-realtransform-3.1.0.jar:/home/runner/.m2/repository/gov/nist/math/jama/1.0.3/jama-1.0.3.jar:/home/runner/.m2/repository/jitk/jitk-tps/3.0.1/jitk-tps-3.0.1.jar:/home/runner/.m2/repository/com/googlecode/efficient-java-matrix-library/ejml/0.24/ejml-0.24.jar:/home/runner/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/runner/.m2/repository/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar:/home/runner/.m2/repository/org/scijava/scijava-table/0.7.0/scijava-table-0.7.0.jar:/home/runner/.m2/repository/org/scijava/scijava-optional/1.0.0/scijava-optional-1.0.0.jar:/home/runner/.m2/repository/edu/ucar/udunits/4.3.18/udunits-4.3.18.jar:/home/runner/.m2/repository/net/imglib2/imglib2-ij/2.0.0-beta-46/imglib2-ij-2.0.0-beta-46.jar:/home/runner/.m2/repository/net/imglib2/imglib2-cache/1.0.0-beta-16/imglib2-cache-1.0.0-beta-16.jar:/home/runner/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.4.0/caffeine-2.4.0.jar:/home/runner/.m2/repository/org/scijava/scijava-common/2.87.0/scijava-common-2.87.0.jar:/home/runner/.m2/repository/org/scijava/parsington/2.0.0/parsington-2.0.0.jar:/home/runner/.m2/repository/org/bushe/eventbus/1.4/eventbus-1.4.jar:/home/runner/.m2/repository/com/itextpdf/itextpdf/5.5.13.1/itextpdf-5.5.13.1.jar:/home/runner/.m2/repository/org/apache/xmlgraphics/batik-bridge/1.13/batik-bridge-1.13.jar:/home/runner/.m2/repository/org/apache/xmlgraphics/batik-anim/1.13/batik-anim-1.13.jar:/home/runner/.m2/repository/org/apache/xmlgraphics/batik-ext/1.13/batik-ext-1.13.jar:/home/runner/.m2/repository/org/apache/xmlgraphics/batik-awt-util/1.13/batik-awt-util-1.13.jar:/home/runner/.m2/repository/org/apache/xmlgraphics/batik-css/1.13/batik-css-1.13.jar:/home/runner/.m2/repository/org/apache/xmlgraphics/batik-dom/1.13/batik-dom-1.13.jar:/home/runner/.m2/repository/org/apache/xmlgraphics/batik-parser/1.13/batik-parser-1.13.jar:/home/runner/.m2/repository/org/apache/xmlgraphics/batik-script/1.13/batik-script-1.13.jar:/home/runner/.m2/repository/org/apache/xmlgraphics/batik-shared-resources/1.13/batik-shared-resources-1.13.jar:/home/runner/.m2/repository/org/apache/xmlgraphics/batik-svg-dom/1.13/batik-svg-dom-1.13.jar:/home/runner/.m2/repository/org/apache/xmlgraphics/batik-util/1.13/batik-util-1.13.jar:/home/runner/.m2/repository/org/apache/xmlgraphics/batik-constants/1.13/batik-constants-1.13.jar:/home/runner/.m2/repository/org/apache/xmlgraphics/batik-i18n/1.13/batik-i18n-1.13.jar:/home/runner/.m2/repository/org/apache/xmlgraphics/batik-xml/1.13/batik-xml-1.13.jar:/home/runner/.m2/repository/org/apache/xmlgraphics/xmlgraphics-commons/2.4/xmlgraphics-commons-2.4.jar:/home/runner/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/home/runner/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/runner/.m2/repository/xml-apis/xml-apis-ext/1.3.04/xml-apis-ext-1.3.04.jar:/home/runner/.m2/repository/org/apache/xmlgraphics/batik-gvt/1.13/batik-gvt-1.13.jar:/home/runner/.m2/repository/org/jclarion/image4j/0.7/image4j-0.7.jar:/home/runner/.m2/repository/org/jpedal/jpedalSTD/2.80b11/jpedalSTD-2.80b11.jar:/home/runner/.m2/repository/com/jcraft/jzlib/1.1.3/jzlib-1.1.3.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'8'
+-sourcepath
+'/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/src/main/java:/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/generated-sources/annotations:/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/src/main/javadoc'
+-author
+-bottom
+'Copyright &#169; 2008&#x2013;2022 <a href="https://fiji.sc/">Fiji</a>. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'IO 4.2.1-SNAPSHOT API'
+-link
+'https://javadoc.scijava.org/Java8'
+-link
+'https://javadoc.scijava.org/JavaFX8'
+-link
+'https://javadoc.scijava.org/SciJava'
+-link
+'https://javadoc.scijava.org/Alida'
+-link
+'https://javadoc.scijava.org/Bio-Formats'
+-link
+'https://javadoc.scijava.org/FLIMLib'
+-link
+'https://javadoc.scijava.org/Fiji'
+-link
+'https://javadoc.scijava.org/Icy'
+-link
+'https://javadoc.scijava.org/ImageJ2'
+-link
+'https://imagej.nih.gov/ij/developer/api'
+-link
+'https://javadoc.scijava.org/ImgLib2'
+-link
+'https://javadoc.scijava.org/Java3D'
+-link
+'https://javadoc.scijava.org/KNIME'
+-link
+'https://javadoc.scijava.org/LOCI'
+-link
+'https://javadoc.scijava.org/MiToBo'
+-link
+'https://javadoc.scijava.org/Micro-Manager-Core'
+-link
+'https://javadoc.scijava.org/Micro-Manager-Studio'
+-link
+'https://javadoc.scijava.org/MorphoLibJ'
+-link
+'https://javadoc.scijava.org/OMERO'
+-link
+'https://javadoc.scijava.org/SCIFIO'
+-link
+'https://javadoc.scijava.org/Apache-Commons-IO'
+-link
+'https://javadoc.scijava.org/Apache-Commons-Lang'
+-link
+'https://javadoc.scijava.org/Apache-Commons-Math'
+-link
+'https://javadoc.scijava.org/Apache-Commons-Text'
+-link
+'https://javadoc.scijava.org/BoneJ'
+-link
+'https://javadoc.scijava.org/Eclipse'
+-link
+'https://javadoc.scijava.org/Guava'
+-link
+'https://javadoc.scijava.org/JAMA'
+-link
+'https://javadoc.scijava.org/JFreeChart'
+-link
+'https://javadoc.scijava.org/JGraphT'
+-link
+'https://javadoc.scijava.org/JHotDraw'
+-link
+'https://javadoc.scijava.org/JOML'
+-link
+'https://javadoc.scijava.org/Javassist'
+-link
+'https://javadoc.scijava.org/MigLayout'
+-link
+'https://javadoc.scijava.org/NetBeans'
+-link
+'https://javadoc.scijava.org/Pivot'
+-link
+'https://javadoc.scijava.org/VisAD'
+-link
+'https://javadoc.scijava.org/Weka'
+-link
+'https://javadoc.scijava.org/ojAlgo'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'IO 4.2.1-SNAPSHOT API'
+sc.fiji.io
+sc.fiji.io.icns
+'/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/src/main/java/HandleExtraFileTypes.java'
+/home/runner/.m2/repository/net/imagej/ij/1.53f/ij-1.53f.jar = 1657180528870
+/home/runner/.m2/repository/net/imagej/imagej-common/0.34.1/imagej-common-0.34.1.jar = 1657180528854
+/home/runner/.m2/repository/net/imglib2/imglib2/5.12.0/imglib2-5.12.0.jar = 1657180528894
+/home/runner/.m2/repository/net/imglib2/imglib2-roi/0.11.0/imglib2-roi-0.11.0.jar = 1657180528866
+/home/runner/.m2/repository/net/imglib2/imglib2-realtransform/3.1.0/imglib2-realtransform-3.1.0.jar = 1657180528830
+/home/runner/.m2/repository/gov/nist/math/jama/1.0.3/jama-1.0.3.jar = 1657180528874
+/home/runner/.m2/repository/jitk/jitk-tps/3.0.1/jitk-tps-3.0.1.jar = 1657180528898
+/home/runner/.m2/repository/com/googlecode/efficient-java-matrix-library/ejml/0.24/ejml-0.24.jar = 1657180528926
+/home/runner/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar = 1657180528938
+/home/runner/.m2/repository/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar = 1657180529034
+/home/runner/.m2/repository/org/scijava/scijava-table/0.7.0/scijava-table-0.7.0.jar = 1657180528942
+/home/runner/.m2/repository/org/scijava/scijava-optional/1.0.0/scijava-optional-1.0.0.jar = 1657180528954
+/home/runner/.m2/repository/edu/ucar/udunits/4.3.18/udunits-4.3.18.jar = 1657180528974
+/home/runner/.m2/repository/net/imglib2/imglib2-ij/2.0.0-beta-46/imglib2-ij-2.0.0-beta-46.jar = 1657180528986
+/home/runner/.m2/repository/net/imglib2/imglib2-cache/1.0.0-beta-16/imglib2-cache-1.0.0-beta-16.jar = 1657180528994
+/home/runner/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.4.0/caffeine-2.4.0.jar = 1657180529054
+/home/runner/.m2/repository/org/scijava/scijava-common/2.87.0/scijava-common-2.87.0.jar = 1657180529058
+/home/runner/.m2/repository/org/scijava/parsington/2.0.0/parsington-2.0.0.jar = 1657180529030
+/home/runner/.m2/repository/org/bushe/eventbus/1.4/eventbus-1.4.jar = 1657180529050
+/home/runner/.m2/repository/com/itextpdf/itextpdf/5.5.13.1/itextpdf-5.5.13.1.jar = 1657180529150
+/home/runner/.m2/repository/org/apache/xmlgraphics/batik-bridge/1.13/batik-bridge-1.13.jar = 1657180529150
+/home/runner/.m2/repository/org/apache/xmlgraphics/batik-anim/1.13/batik-anim-1.13.jar = 1657180529138
+/home/runner/.m2/repository/org/apache/xmlgraphics/batik-ext/1.13/batik-ext-1.13.jar = 1657180529110
+/home/runner/.m2/repository/org/apache/xmlgraphics/batik-awt-util/1.13/batik-awt-util-1.13.jar = 1657180529134
+/home/runner/.m2/repository/org/apache/xmlgraphics/batik-css/1.13/batik-css-1.13.jar = 1657180529210
+/home/runner/.m2/repository/org/apache/xmlgraphics/batik-dom/1.13/batik-dom-1.13.jar = 1657180529222
+/home/runner/.m2/repository/org/apache/xmlgraphics/batik-parser/1.13/batik-parser-1.13.jar = 1657180529222
+/home/runner/.m2/repository/org/apache/xmlgraphics/batik-script/1.13/batik-script-1.13.jar = 1657180529202
+/home/runner/.m2/repository/org/apache/xmlgraphics/batik-shared-resources/1.13/batik-shared-resources-1.13.jar = 1657180529210
+/home/runner/.m2/repository/org/apache/xmlgraphics/batik-svg-dom/1.13/batik-svg-dom-1.13.jar = 1657180529290
+/home/runner/.m2/repository/org/apache/xmlgraphics/batik-util/1.13/batik-util-1.13.jar = 1657180529254
+/home/runner/.m2/repository/org/apache/xmlgraphics/batik-constants/1.13/batik-constants-1.13.jar = 1657180529270
+/home/runner/.m2/repository/org/apache/xmlgraphics/batik-i18n/1.13/batik-i18n-1.13.jar = 1657180529294
+/home/runner/.m2/repository/org/apache/xmlgraphics/batik-xml/1.13/batik-xml-1.13.jar = 1657180529282
+/home/runner/.m2/repository/org/apache/xmlgraphics/xmlgraphics-commons/2.4/xmlgraphics-commons-2.4.jar = 1657180529314
+/home/runner/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar = 1657180529322
+/home/runner/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar = 1657180529322
+/home/runner/.m2/repository/xml-apis/xml-apis-ext/1.3.04/xml-apis-ext-1.3.04.jar = 1657180529330
+/home/runner/.m2/repository/org/apache/xmlgraphics/batik-gvt/1.13/batik-gvt-1.13.jar = 1657180529394
+/home/runner/.m2/repository/org/jclarion/image4j/0.7/image4j-0.7.jar = 1657180529354
+/home/runner/.m2/repository/org/jpedal/jpedalSTD/2.80b11/jpedalSTD-2.80b11.jar = 1657180529386
+/home/runner/.m2/repository/com/jcraft/jzlib/1.1.3/jzlib-1.1.3.jar = 1657180529370
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/src/main/java/HandleExtraFileTypes.java = 1657198797603
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/src/main/java = 1657198797603
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/generated-sources/annotations = 1657198815315
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/src/main/javadoc = 1657198797607
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/site/apidocs/script.js = 1657198845087
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/site/apidocs/deprecated-list.html = 1657198845083
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/site/apidocs/package-frame.html = 1657198845007
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/site/apidocs/overview-summary.html = 1657198845087
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/site/apidocs/index-all.html = 1657198845079
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/site/apidocs/index.html = 1657198845087
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/site/apidocs/package-list = 1657198845007
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/site/apidocs/HandleExtraFileTypes.html = 1657198844547
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/site/apidocs/overview-tree.html = 1657198845059
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/site/apidocs/package-tree.html = 1657198845019
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/site/apidocs/constant-values.html = 1657198845031
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/site/apidocs/allclasses-noframe.html = 1657198845083
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/site/apidocs/overview-frame.html = 1657198845007
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/site/apidocs/package-use.html = 1657198845055
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/site/apidocs/package-summary.html = 1657198845019
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/site/apidocs/help-doc.html = 1657198845087
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/site/apidocs/stylesheet.css = 1657198845087
+/home/runner/work/FIJI-IMAGEJ-IO/FIJI-IMAGEJ-IO/target/site/apidocs/allclasses-frame.html = 1657198845083
