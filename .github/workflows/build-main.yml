@@ -30,27 +30,10 @@ jobs:
           MAVEN_PASS: ${{ secrets.MAVEN_PASS }}
           OSSRH_PASS: ${{ secrets.OSSRH_PASS }}
           SIGNING_ASC: ${{ secrets.SIGNING_ASC }}
-          
-  publish:
-    needs: build
-    runs-on: ubuntu-latest 
-    permissions: 
-      contents: read
-      packages: write 
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-java@v3
-        with:
-          java-version: '8'
-          distribution: 'zulu'
-          cache: maven
-      - name: Publish package
-        run: mvn --batch-mode deploy
+      - name: Deploy
+        uses: s0/git-publish-subdir-action@master
         env:
+          REPO: self
+          BRANCH: data_build
+          FOLDER: ./
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GPG_KEY_NAME: ${{ secrets.GPG_KEY_NAME }}
-          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
-          MAVEN_USER: ${{ secrets.MAVEN_USER }}
-          MAVEN_PASS: ${{ secrets.MAVEN_PASS }}
-          OSSRH_PASS: ${{ secrets.OSSRH_PASS }}
-          SIGNING_ASC: ${{ secrets.SIGNING_ASC }}
