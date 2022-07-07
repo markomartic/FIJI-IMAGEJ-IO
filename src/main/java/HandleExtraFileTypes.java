@@ -501,7 +501,7 @@ public class HandleExtraFileTypes extends ImagePlus implements PlugIn {
 		}
 		*/
 		
-		if (name.endsWith(".xfd")) {
+		if (name.endsWith(".fxd")) {
 		// Ok we've identified the file type - now load it
 			return tryPlugIn("FXD_Import", path);
 		}
