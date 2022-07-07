@@ -32,6 +32,7 @@ jobs:
           SIGNING_ASC: ${{ secrets.SIGNING_ASC }}
           
   publish:
+    needs: build
     runs-on: ubuntu-latest 
     permissions: 
       contents: read
